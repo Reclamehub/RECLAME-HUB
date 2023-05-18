@@ -1,0 +1,26 @@
+.nav-row{
+
+    border:1px solid red;
+    justify-content: space-between;
+
+}
+.nav-col-two-container{
+    width: 50%;
+    border:1px solid green;
+    display: flex;
+    
+    justify-content: center;
+align-items: center;
+}
+.nav-col-two{
+width: 80%;
+    border:1px solid blue;
+   justify-content: space-around;
+   gap:10%
+
+}
+
+.nav-icon-box{
+    width: 20%;
+    border:1px solid yellowgreen
+}
