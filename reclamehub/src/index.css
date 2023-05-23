@@ -1,19 +1,20 @@
-:root{
-  --body_background:black;
-  --body_color:white;
-  --link_color:navy
+/* :root{
+  --body_background:pink;
+  --body_color:red;
+  --link_color:navy;
+  
 }
 
 
 [data-theme="dark"]{
-  --body_background:black;
-  --body_color:black;
+  --body_background:red;
+  --body_color:blue;
   --link_color:cyan;
+  background-color: black;
 }
 *{
-
   transition: all 0.03s ease-in;
-}
+} */
 
 
 body {

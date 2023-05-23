@@ -4,15 +4,16 @@ import './App.css';
 import {Navbar} from "./components/Navbar/Navbar"
 import {AllRoutes} from "./components/AllRoutes/AllRoutes"
 import {Footer} from "./components/Footer/Footer"
+import { Box, useColorMode, useColorModeValue } from '@chakra-ui/react';
 function App() {
   
-  
+  // localStorage.setItem("chakra-ui-color-mode","dark")
   return (
-    <div className="App">
+    <Box className="App" >
       <Navbar />
       <AllRoutes />
       <Footer />
-    </div>
+    </Box>
   );
 }
 
