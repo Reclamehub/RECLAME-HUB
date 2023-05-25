@@ -5,7 +5,7 @@ font-family:'Oxanium', cursive;;
 
 }
 .nav-col-two-container{
-    width: 50%;
+    width: 70%;
     /* border:1px solid green; */
     display: flex;
     
@@ -14,10 +14,10 @@ align-items: center;
 }
 .nav-col-two{
 width: 80%;
-    /* border:1px solid blue; */
+   
    justify-content: space-around;
-   gap:10%
-
+   gap:10%;
+font-size: 1vw;
 }
 
 .nav-icon-box{

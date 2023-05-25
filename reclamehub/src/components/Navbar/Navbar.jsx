@@ -1,6 +1,7 @@
 import { Box, Container, Flex, Image, Text,Button, useDisclosure,useColorModeValue,useColorMode, } from "@chakra-ui/react"
 import "./Navbar.css"
 import DarkMode from "./DarkMode";
+import { Link } from "react-router-dom";
 
 export const Navbar=()=>{
   const { colorMode, toggleColorMode } = useColorMode();
@@ -14,10 +15,11 @@ export const Navbar=()=>{
         <Flex className="nav-col-two">
             <Box>
               </Box>
-            <Box><Text>About</Text> </Box>
-            <Box><Text>Services</Text></Box>
-            <Box> <Text>Explore</Text></Box>
-            <Box> <Text>Contact</Text></Box>
+              <Box><Text>HOME</Text> </Box>
+            <Box><Text><Link to="/about">ABOUT US</Link></Text> </Box>
+            <Box><Text>SERVICES</Text></Box>
+            <Box> <Text>PORTFOLIO</Text></Box>
+            <Box> <Text>Contact US</Text></Box>
             
         </Flex>
     </Box>
