@@ -114,9 +114,14 @@ const blogData=[
 export const Blog=()=>{
 
 
-    return(<Box className="blog-container">
+    return(
+    <Box>
+<Heading margin={"15px"} fontSize={"5vw"}>Blog</Heading>
+
+    <Box className="blog-container">
         
         {blogData.map((el)=>(<Box key={el.id}>
+            
 <Box className="blog-box"  boxShadow='xl'  rounded='md' >
     <Image className="blog-img" src={el.image} alt="blog-img" />
     <Heading>{el.title}</Heading>
@@ -127,5 +132,7 @@ export const Blog=()=>{
 </Box>
 
 </Box>))}
-    </Box>)
+    </Box>
+    </Box>
+    )
 }
