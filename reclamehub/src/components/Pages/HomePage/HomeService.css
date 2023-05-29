@@ -1,12 +1,12 @@
 .home-service-container{
-    background-image: url("../../../../public/servicebg.gif");
+    
     background-repeat: no-repeat;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-size: cover;
-    height: 100vh;
+
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -31,5 +31,5 @@ padding: 10px;
   -o-filter: blur(10px);
   -ms-filter: blur(10px); */
     
-    color:white;
+  box-shadow: 8px 8px 10px 4px #888888
 }
