@@ -6,6 +6,8 @@ import { HomeAbout } from "./HomeAbout";
 import { Help } from "./Help";
 import { Brand } from "./Brand";
 import { HomeClients } from "./HomeClients";
+import { HomeTeam } from "./HomeTeam";
+import { Connect } from "./Connect";
 
 export const HomePage=()=>{
     const { colorMode, toggleColorMode } = useColorMode();
@@ -15,10 +17,14 @@ export const HomePage=()=>{
         
         <HomePageTop />
         <HomeAbout />
-        {/* <HomeClientNumber /> */}
+        <HomeClientNumber />
         <HomeService />
         <Help />
         <Brand />
         <HomeClients />
+        
+        <HomeTeam />
+
+        <Connect />
     </Box>)
 }

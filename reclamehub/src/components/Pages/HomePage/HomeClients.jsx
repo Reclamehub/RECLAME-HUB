@@ -5,7 +5,7 @@ export const HomeClients=()=>{
 
 
     return (<Box>
-<Heading>SOME OF OUR <span style={{ color:"#F47721"}}>CLIENTS</span></Heading>
+{/* <Heading>SOME OF OUR <span style={{ color:"#F47721"}}>CLIENTS</span></Heading> */}
 <Text></Text>
     </Box>)
 }
