@@ -16,7 +16,7 @@ export const AboutVision=()=>{
                 {/* <Box className="vision-text-container"></Box> */}
             </Box>
             <Box>
-                <Image src="bannerimg.png" atl="vision-img" />
+                <Image src="abtgif3.gif" atl="vision-img" />
             </Box>
         </Flex>
         <br />

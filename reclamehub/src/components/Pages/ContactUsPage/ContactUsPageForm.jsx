@@ -4,16 +4,16 @@ import {MdAlternateEmail} from "react-icons/md"
 import {FiMail} from "react-icons/fi"
 import { Box, Button, Heading, Input, InputGroup, InputLeftElement, InputRightElement, Textarea, useColorModeValue } from "@chakra-ui/react"
 
-import "./AboutForm.css"
+import "./ContactUsPageForm.css"
 
-export const AboutForm=()=>{
+export const ContactUsPageForm=()=>{
 
 
 
 
 
     return(<Box w="80%" m="auto" p="10px" mb={"20px"} bg={useColorModeValue('white', "black")} boxShadow={"xl"}>
-        <Box><Heading color="orangered">TALK TO OUR EXPERTS</Heading></Box>
+        <Box><Heading color="orangered">CONTACT US</Heading></Box>
         <br />
         <Box fontWeight={"500"}>We are available for a friendly chat to discuss your business needs,no obligation</Box>
 <br />

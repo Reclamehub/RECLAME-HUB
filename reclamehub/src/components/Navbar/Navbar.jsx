@@ -19,7 +19,7 @@ export const Navbar=()=>{
             <Box><Text><Link to="/about">ABOUT US</Link></Text> </Box>
             <Box><Text>SERVICES</Text></Box>
             <Box> <Text>PORTFOLIO</Text></Box>
-            <Box> <Text>Contact US</Text></Box>
+            <Box> <Link to="/contact"><Text>Contact US</Text></Link></Box>
             
         </Flex>
     </Box>

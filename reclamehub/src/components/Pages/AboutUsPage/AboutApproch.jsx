@@ -9,7 +9,7 @@ export const AboutApproch=()=>{
         <Flex className="vision-flex-box" justifyContent={"space-between"}>
             
             <Box>
-                <Image src="bannerimg.png" atl="vision-img" />
+                <Image src="abtgif1.gif" atl="vision-img" />
             </Box>
             <Box className="vision-text-heading-container" w="30%" boxShadow={"2xl"}>
                 <Box className="vision-heading-container">
